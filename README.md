@@ -6,7 +6,7 @@ Welcome to my portfolio repository! This README file provides an overview of my 
 
 Creating my web portfolio was an exciting and rewarding experience. Here is an overview of my development process:
 
-1. **Planning**: I started by outlining the structure and content of my portfolio. This included deciding on the sections to include, such as About Me, Projects, Skills, and Contact.
+1. **Planning**: I started by outlining the structure and content of my portfolio. This included deciding on the sections to include, such as Home, Background, and Link.
 
 2. **Design**: I designed the layout and visual elements using wireframes and mockups. I aimed for a clean, modern, and user-friendly design that highlights my skills and projects effectively.
 
@@ -42,7 +42,8 @@ Below is a list of assets and resources used in this project that are not my own
 
 - **Frameworks/Libraries**:
   - [Bootstrap](https://getbootstrap.com/) - for responsive design
-  - [jQuery](https://jquery.com/) - for enhanced JavaScript functionality
+  - [Animate.css](https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css) - for CSS animations
+  - [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css) - for icons
 
 - **Fonts**:
   - [Google Fonts](https://fonts.google.com/) - for custom fonts
@@ -50,13 +51,9 @@ Below is a list of assets and resources used in this project that are not my own
 - **Images**:
   - [Unsplash](https://unsplash.com/) - for high-quality stock images
 
-- **Plugins**:
-  - [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) - for scroll animations
-
 ## Submission
 
 You can view my portfolio live on GitHub Pages at the following link:
-[Michael Stuff's Portfolio](https://githubusername.github.io/portfolio)
+[Michael Stuff's Portfolio](https://stuf0006.github.io/mtm6201-final/)
 
 Thank you for visiting my portfolio repository!
-

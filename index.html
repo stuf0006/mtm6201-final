@@ -1,59 +1,90 @@
-# Michael Stuff's Portfolio
 
-Welcome to my portfolio repository! This README file provides an overview of my process, challenges faced during development, and what I've learned from creating my web portfolio. Additionally, it includes a list of assets and resources used in the project.
-
-## Process
-
-Creating my web portfolio was an exciting and rewarding experience. Here is an overview of my development process:
-
-1. **Planning**: I started by outlining the structure and content of my portfolio. This included deciding on the sections to include, such as Home, Background, and Link.
-
-2. **Design**: I designed the layout and visual elements using wireframes and mockups. I aimed for a clean, modern, and user-friendly design that highlights my skills and projects effectively.
-
-3. **Development**: I developed the portfolio using HTML, CSS, and JavaScript. I ensured the site is responsive and works well on various devices and screen sizes.
-
-4. **Testing and Optimization**: I thoroughly tested the site to identify and fix any bugs or issues. I also optimized the site for performance and accessibility.
-
-## Challenges and Solutions
-
-During the development of my portfolio, I faced several challenges:
-
-1. **Responsive Design**: Ensuring that the site looks great on all devices was challenging. I overcame this by using a mobile-first approach and testing the site on different devices and screen sizes.
-
-2. **Performance Optimization**: Balancing aesthetics and performance required careful consideration. I optimized images, minified CSS and JavaScript files, and used lazy loading for images to improve loading times.
-
-3. **Browser Compatibility**: Making sure the site works consistently across different browsers was a challenge. I used tools like BrowserStack to test and ensure compatibility.
-
-## Lessons Learned
-
-Creating my web portfolio taught me several valuable lessons:
-
-1. **Planning and Organization**: A well-structured plan and organized approach are crucial for a successful project. It helped me stay on track and manage my time effectively.
-
-2. **Responsive Design Best Practices**: I learned the importance of a mobile-first approach and how to implement responsive design principles to create a seamless user experience.
-
-3. **Performance Optimization Techniques**: I gained a deeper understanding of various optimization techniques to enhance website performance.
-
-4. **Browser Compatibility Testing**: Ensuring compatibility across different browsers is essential for a consistent user experience.
-
-## Assets and Resources
-
-Below is a list of assets and resources used in this project that are not my own:
-
-- **Frameworks/Libraries**:
-  - [Bootstrap](https://getbootstrap.com/) - for responsive design
-  - [Animate.css](https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css) - for CSS animations
-  - [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css) - for icons
-
-- **Fonts**:
-  - [Google Fonts](https://fonts.google.com/) - for custom fonts
-
-- **Images**:
-  - [Unsplash](https://unsplash.com/) - for high-quality stock images
-
-## Submission
-
-You can view my portfolio live on GitHub Pages at the following link:
-[Michael Stuff's Portfolio](https://stuf0006.github.io/mtm6201-final/)
-
-Thank you for visiting my portfolio repository!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mtm6201-final</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body class="bg-primary">
+    <nav class="navbar navbar-expand-lg  animate__animated animate__bounce  bg-primary">
+        <div class="container-fluid">  
+          <img src="images/logo-storphITconsult.png" alt="The Company Logo " class="logo"  style="height: 40px; margin-right: 10px; ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-inline flex-column flex-lg-row ms-auto" id="navbarNav">
+            <ul class="navbar-nav  ps-4-lg">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="background.html">Background</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="link up.html">Link </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <picture>
+        <source srcset="images/Structured-Cabling-768_x_431.jpg, 
+                     images/Structured-Cabling-320_x_180.jpg 3x"
+                      media="(max-width: 768px)">
+                <img src="images/Structured-Cabling.jpg" class="img-fluid w-100 ms-lg-auto" alt="hero banner image" style="height:400px ;" aria-label="hero banner image">                
+      </picture>
+    <h1 class="text-center bg-white text-secondary">"Your Vision,Our Expertise"</h1>
+    <p><span class="service-heading text-white">Network Setup and Configuration:</span> <span class="service-description">We design and implement customized network solutions tailored to meet the specific needs of your business. This includes setting up routers, switches, firewalls, and wireless networks to ensure secure and reliable connectivity.</span></p>
+    <p><span class="service-heading text-white">Commercial Photography:</span> <span class="service-description">We provide high-quality images for marketing and advertising purposes. Our commercial photography services help businesses promote their products, services, and brand identity effectively.</span></p>
+    <p><span class="service-heading text-white">Custom Software Development:</span> <span class="service-description">We design and develop custom software solutions tailored to meet the specific needs of your business. Our team works closely with you to understand your requirements and deliver software that enhances productivity and efficiency.</span></p>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1">
+            <div class="testimonial-box">
+                <img class="testimonial-image" src="images/Rita_T.jpg" alt="Rita Morrison the CEO of Online Press Marketing Company">
+                <h2>Rita Morrison</h2>
+                <p class="fw-bold">CEO, Online Press Marketing Company</p>
+                <p class="testimonial-text">Working with STORPH I.T Consult has been a game-changer for my online business. Their team, especially Monica Tutu, delivered exceptional service and tailored solutions that perfectly met my needs. The professional support and innovative strategies they provided significantly boosted my website’s performance. I highly recommend STORPH I.T Consult for anyone looking to enhance their digital presence.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 offset-lg-4">
+            <div class="testimonial-box">
+                <img class="testimonial-image" src="images/Edm-1.jpg" alt="Dr Edward Foli the CEO of Nsuta Coco Processing Company">
+                <h2>Dr. Edward Foli</h2>
+                <p class="fw-bold">CEO, Nsuta Coco Processing Company</p>
+                <p class="testimonial-text">STORPH I.T Consult has exceeded our expectations in every way. Vincent Morgan and his team delivered top-notch IT solutions that streamlined our operations and boosted productivity. Their expertise and commitment to excellence are truly commendable. I highly recommend STORPH I.T Consult for any business seeking reliable and innovative IT support.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 offset-lg-6">
+            <div class="testimonial-box">
+                <img class="testimonial-image" src="images/Mr-Nartey.jpg" alt="Lawyer Peter Nortey the CEO of Nortey and Sons Law Consult">
+                <h2>Lawyer Peter Nortey</h2>
+                <p class="fw-bold">CEO, Nortey and Sons Law Consult</p>
+                <p class="testimonial-text">STORPH I.T Consult has been an invaluable partner for our law firm. Their expert team provided us with customized IT solutions that enhanced our workflow and security. The professionalism and responsiveness of their service have greatly improved our efficiency. We highly recommend STORPH I.T Consult to any firm looking for reliable and innovative IT support.</p>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center bg-white text-secondary w-100">"Transforming Technology, Elevating Experiences."</h2>
+  </div>
+<footer>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="text-center">2024. Storph IT Consult. All right reserved</p>
+            <p>Connect with us</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin text-secondary"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram text-secondary"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
